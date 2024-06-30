@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rudr/latest-post",
+  "version": "1.0.0",
+  "title": "Latest Post",
+  "category": "text",
+  "icon": "admin-post",
+  "description": "Dynamic block example.",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./build/index.js",
+  "render": "file:./render.php"
+}
