@@ -13,7 +13,7 @@
 		$latest_post_id = reset( $latest_posts );
 
 		printf(
-			'<a class="wp-block-my-plugin-latest-post" href="%1$s">%2$s</a>',
+			'<a href="%1$s">%2$s</a>',
 			esc_url( get_permalink( $latest_post_id ) ),
 			esc_html( get_the_title( $latest_post_id ) )
 		);
